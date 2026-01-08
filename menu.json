@@ -1,0 +1,690 @@
+{
+    "cafeteria": [
+        {
+            "category": "SÁNDWICHES",
+            "items": [
+                {
+                    "name": "Sándwich Mixto",
+                    "price": "5,00 €",
+                    "description": "Jamón sabroso y queso fundido sobre pan crujiente, acompañado de nuestras crujientes patatas gajo.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczPTxkVZ7pppD0WqxrHGCzVhOPIlQkLvnhs-_1_LeQP2WW1HzBN-TbZ_ELU0XQj4vVtCaoX8ekCMCmZgkDUPfgIawwOLuaM4NTnZK4XrRMOHIftqWSjlzm_oUI0YHP0GFQDqeo2fbAg7EcBF5fNeuQyN=w509-h466-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Sándwich Vegetal",
+                    "price": "6,00 €",
+                    "description": "Zanahoria, cebolla roja, mango, tomate, pepino, lechuga y huevo duro, con patatas gajo.",
+                    "allergens": [
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczPjDbCBsUf7cHGGYoGamKuU8cmASrTbUHjnxEhI9QVRGPcO12QZlW4JhBWGyXoUhgwN30Hou8zGLjPLkB7-UJxn1phJu6PoEklo8940I84cJEMLBcmK5bpROKiXPz-3mQK53QGHy-CaplLV4KI4EuSB=w429-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Sándwich Club",
+                    "price": "8,00 €",
+                    "description": "Tres pisos con pollo, bacon, jamón york, queso, mayonesa, lechuga y tomate. Con patatas fritas.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNra_uAZo9Ts3q6QilOL1xKRiqSHrh2DrwMLuOm-hWoTRXSsABmP_ZLJc0HzyqI7yuSsK1xfSF8Y1mI5qadHMc810RlRimk0MMat3ba3Gq6spXfUjf5QbdaT6C2AJtjDDOJeQesvvjqgQqIU_zQK1DL=w1006-h542-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Sándwich Club Salmón",
+                    "price": "9,00 €",
+                    "description": "Salmón ahumado, aguacate, tomate, cebolla roja, lechuga, mostaza y miel en pan de focaccia. Con patatas gajo.",
+                    "allergens": [
+                        "Pescado",
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo",
+                        "Mostaza"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczM1jx8dOL4s3cB2FGSRJn1tYHRQMXispbmJkktRI5DgbyAjNVjlDXl-bPYwpB9nTfQfHJvTB0xJ4vxJw_qzEGUBAHWZQDhgJXL5W9L7CyB6qkQzSMqXhQ1G8liODfQqGEqu1Mfm4PpReCTeiH3oT-Ub=w991-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Sándwich Frío de Queso y Nuez",
+                    "price": "8,00 €",
+                    "description": "Queso de untar y nueces, acompañado de patatas gajo.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczP9jazKNNpKQNikdKAZhAW1BOQsOAyiMa2iJ7qR0CheY4AlcLrDMTky_9wRK1G3WuRSL0RoxUX6Mop07LhPfWj6lyllAy2fgPtndVVW_ueuqca3RvB0nhHIpmRZP06mjXCV3f9RAur1Y_QccQua0OWE=w878-h309-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Sándwich Caliente de Pollo",
+                    "price": "7,00 €",
+                    "description": "Pollo, bacon, lechuga, huevo, parmesano y salsa en pan de focaccia. Con patatas.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczN6rkgtSw0JQB4bkwPOb2engf4ku1pwvWVCZ_zyHe_LisNrKepaOFPwVtlmp09o19i8-g94WOJfRMdfe0hd1MKil2tm-8TFeEPVZju56_N0htK_je7dq1u1F6R6T0e2gWzdUlDN6lfa1I0T_Rm9Deos=w1006-h597-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "HAMBURGUESAS",
+            "items": [
+                {
+                    "name": "Hamburguesa Vaca Gallega",
+                    "price": "11,00 €",
+                    "description": "Vaca gallega premium, bacon, cheddar, cebolla, lechuga, tomate y piquillo. Con patatas.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOPvCYMCVHpwLZY7qoXXCG6Jb3TlKziiMprmtCiBQzHkPt0wAr0AxRaeOopGaAa8Wt21DujBD5AypbbjcKq5KcjE-6NSZoUM7evqfafPTbnKfcuAmT8CfSYG0gQgScLbgqb1ysD2q7zdX1oy9zSlMKu=w509-h381-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Hamburguesa de Pollo",
+                    "price": "11,00 €",
+                    "description": "Pollo crujiente, cheddar, cebolla frita, tomate, bacon y salsa barbacoa en pan chapata. Con patatas gajo.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOkvHvIkh-0BmXAs3Y6ZYx65kT5p_6K5TdhyyraQ5j9w2IJQbcnPWtrb5BMBXLwYAz-BpjEtL5K11Zy45dgOtLBE2tV2ZkwzesyP1fX5JYggFAEZ6UAUTc0-wG-_BNSvu7Ah2dVxH_KCxkUYa_sus3L=w953-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Hamburguesa Ibérica",
+                    "price": "11,00 €",
+                    "description": "Carne ibérica, tomate cassé, queso manchego, cebolla caramelizada y torreznos. Con patatas y salsa barbacoa.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNiS0B_jNV3QB_3xFjnjGLyaHvLTg9HmysR-jaDEGfdxAE4y2rt7PyU4jp9LxQ3ve_MP4S_rt3UmFxMGP4dNjJDL4rRuGKWMVnBSeBPI0c03QKfDpnihO-PzxVlB6ZG3x3sNMjYs7g-E9jKTIIbTaVa=w509-h381-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Hamburguesa Vegetal",
+                    "price": "11,00 €",
+                    "description": "Tofu, tomate cassé, cebolla caramelizada y pimiento asado.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczP9jazKNNpKQNikdKAZhAW1BOQsOAyiMa2iJ7qR0CheY4AlcLrDMTky_9wRK1G3WuRSL0RoxUX6Mop07LhPfWj6lyllAy2fgPtndVVW_ueuqca3RvB0nhHIpmRZP06mjXCV3f9RAur1Y_QccQua0OWE=w878-h309-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "TOSTAS",
+            "items": [
+                {
+                    "name": "Tosta Matrimonio",
+                    "price": "9,00 €",
+                    "description": "Boquerón en vinagre, anchoa y salmorejo sobre pan tostado.",
+                    "allergens": [
+                        "Pescado",
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo",
+                        "Mostaza"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNEaKj4CD7bdm3RtuErbJOlMklydWNkLGWtsMJmQ9TRKKpwU2rW4zdaj7NJI4vb2FXi6MCnHcaYigY8MnONelueVGiCNj7YHqqLizf2UFqdL-SQaDhegTg3nf0hWStbUNyDzUNCIGLWsd4CEWhZjHyh=w1006-h570-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Tosta Jamón Ibérico",
+                    "price": "10,00 €",
+                    "description": "Jamón ibérico, tomate fresco y aceite de oliva virgen extra.",
+                    "allergens": [
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczPNh6dp1ckB5iW18IT4U2ZolWwFbGvbIxo2HZ6CoCv2HlmXTeYgKbR7O4v8gmbODr27yfgmsnvzmZRfcEtL5ddHgyt6hNgBh3YnYb0VdlWbFWiSWrq3y9lsXZA97xIPn1zc9uZNvoJSAMYQFWJiBDUM=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Tosta Vegetariana",
+                    "price": "9,00 €",
+                    "description": "Verduras a la parrilla gratinadas con queso emmental.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOUXuM7zB-X9-SYtfvoFoPLLmXZSkkej7QHvbOE8B1Uq9tymOpZFSa8WzlhCFuLtKN1_PqSLyQ4pxh4E7HZlQvXu81ipFRaLi5458ie_Urt5NVwUw8R6_mIs_oYAZPHRRC0BxfQg6MvV7G0S69YkDeY=w1006-h595-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Tosta Boloñesa",
+                    "price": "9,00 €",
+                    "description": "Tomate frito, boloñesa y queso fundido. Con patatas gajo.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNLQtKNH3eh0S4H34-VXkJ_MwIMAv40y_Vs9naci565Txv8QKcR0tvNzsQ86zBIFcchO3lir3rn7dZW7rPS6RGGflJrqZWMOr2GEtooWcdmkoVvUZr8R1j7a60H5g8JZPyfFuZ3vip8hkbnEZ0hDunk=w627-h599-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "BOCADILLOS",
+            "items": [
+                {
+                    "name": "Bocadillo Serranito",
+                    "price": "8,00 €",
+                    "description": "Jamón serrano, lomo de cerdo, tomate fresco y pimiento verde frito.",
+                    "allergens": [
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczPWre-hxmaHuMgRXKviiXrFqGepBlkQjditly5Y8BV3mrBb-UVmIXs0jIA-jFek5Ie4YHf34hYq6jpbTQCpgFFBAXXs1uxdPNRgPrEDWJThvgPZaOGvfBp6HDrKqRMXff9lSJiPMHNO3oMqpRTgrKgO=w509-h381-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Bocadillo Francés a tu Gusto",
+                    "price": "8,00 €",
+                    "description": "Elige tu combinación favorita en pan francés suave: jamón york y queso, o jamón york, queso y el toque sabroso del chorizo. ¡Acompañado de deliciosas patatas!",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczP5nPuXFuKf3pc71ij-XC9zNQRayD6XA9hdKu9kOV2hrsPZft85mOE3RG9S6SwECJU1mOORRW9yUoj8HnrOiP92fkExYNMCWJX-1xiBPPH4G829RDYRXangLpFHPejNzbqTL6ksWU1mp-pRWHVp6krC=w831-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Pepito de Ternera",
+                    "price": "10,00 €",
+                    "description": "Bistec, pimiento verde frito y queso cheddar.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczP9jazKNNpKQNikdKAZhAW1BOQsOAyiMa2iJ7qR0CheY4AlcLrDMTky_9wRK1G3WuRSL0RoxUX6Mop07LhPfWj6lyllAy2fgPtndVVW_ueuqca3RvB0nhHIpmRZP06mjXCV3f9RAur1Y_QccQua0OWE=w878-h309-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Bocadillo Calamares",
+                    "price": "10,00 €",
+                    "description": "Chipirón frito, pimiento de padrón y alioli de cítricos.",
+                    "allergens": [
+                        "Pescado",
+                        "Lácteos",
+                        "Moluscos",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMErOiRyxVX4XCBvVjT7q4MJBqkMfLUbgELzZbwoa5X8FqzUs6kVCUX7JU9SYRmm-U2iUPqxvAHDCtdhYoFwEfTm80jFHt6F_nThihOdcYNEywxJHZXfosEUziKn27R40vLTbhsMJnYQ9K9uSGGLZP5=w509-h381-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "PAN PIZZAS",
+            "items": [
+                {
+                    "name": "Pan Pizza Vegana",
+                    "price": "9,50 €",
+                    "description": "Base vegana con ingredientes frescos y salsa sabrosa.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMgNWQpLDJSfep1yeZw0McZXTCX1Opkaqm95sE8FWHTvbMOnty0sqvuoQWCj1HFRE43h4aLMt4DG3ERrWJ9-olrw0yo9m26cEoKWzxF8CIpVNmJwiisTk1zHJfI7usw8udrUiY8OMK80bN9D2LNbyeT=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Pan Pizza Jamón York y Queso",
+                    "price": "9,50 €",
+                    "description": "Jamón york y queso fundido.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczO5SWY-tVIAs4pAGovy2ABaOCtiZOlZx8x8malHspu_-tb_D11f-86Bj6oqI0d9EtTsiSwoScvB6yOuURjgsWg5a9rHgt28gmXy1BuSRWCo_OnLZbba8UdedcIVQEZAUf2VVPq0q3-RiA0_hf69tpaj=w1003-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Pan Pizza Barbacoa",
+                    "price": "9,50 €",
+                    "description": "Salsa barbacoa, pollo, cebolla dulce y queso.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczP9jazKNNpKQNikdKAZhAW1BOQsOAyiMa2iJ7qR0CheY4AlcLrDMTky_9wRK1G3WuRSL0RoxUX6Mop07LhPfWj6lyllAy2fgPtndVVW_ueuqca3RvB0nhHIpmRZP06mjXCV3f9RAur1Y_QccQua0OWE=w878-h309-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Pan Pizza Bacon",
+                    "price": "9,50 €",
+                    "description": "Bacon, queso fundido y salsa especial.",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOsDKU9fpYKytVV1hwnMCOEej56UUyuM0CymLp1jbtfDQMV70XNj3SqnYe0hnZ9cHPa91GKnMvyht-ly3TRhSpZCzzw9OoefX1a6J4H5iFsBuryHAk59zPMf9yoYTZG8xAPGvTXIxEI-9lfMPKym1DN=w799-h599-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "BOWLS",
+            "items": [
+                {
+                    "name": "Bowl Vegetal",
+                    "price": "11,00 €",
+                    "description": "Spaghetti de calabacín, champiñones, zanahoria, cebollas y ajetes sobre arroz.",
+                    "allergens": [
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczP9jazKNNpKQNikdKAZhAW1BOQsOAyiMa2iJ7qR0CheY4AlcLrDMTky_9wRK1G3WuRSL0RoxUX6Mop07LhPfWj6lyllAy2fgPtndVVW_ueuqca3RvB0nhHIpmRZP06mjXCV3f9RAur1Y_QccQua0OWE=w878-h309-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Bowl Pollo",
+                    "price": "11,00 €",
+                    "description": "Contramuslo de pollo, arroz, patatas, champiñones, berenjena y mojo picón.",
+                    "allergens": [
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOfbsYkQn2tyNOBpF27nflAVWwAAj3B-1NVoOBvfkEV9sLO_v4lqInccXdPeFyBbOS1PyTr9R-URjFmcsO0pq94leBYThtOgFVIQxojDX3KYBXXDIbF-gVrxR9FaEjGRaaEwRXtvL74qqdI8vs9w-As=w777-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Bowl Salmón",
+                    "price": "11,00 €",
+                    "description": "Salmón, aguacate, cherry, mango, pepino y arroz sushi con salsa sweet chili.",
+                    "allergens": [
+                        "Pescado",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMVlnUDncF3xhpe3rGCcLi5vJdUHVPK0GtqP0YwtHO2C6Td4BPtOJY8Y19JfOOy-b6-bPA5jZ9sBAaYEV9Em-_qWos_3e05hXcsKn8SE-FAZ_OyKtpsj9liz47X31PKJgML0BDHdJPro0fLDonbDiHb=w509-h381-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "PLATOS COMBINADOS",
+            "items": [
+                {
+                    "name": "Huevos fritos con pisto y bacalao",
+                    "price": "15,00 €",
+                    "description": "Huevos fritos, pisto casero y bacalao frito. Con patatas.",
+                    "allergens": [
+                        "Pescado",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczPKF28sHNkc7CqQS3qmzLRX7FkhFJMqynsOdv5C9Tg4IR6m_8jAox9eBrNV9bthddsIEgW3VHSco5SrT8SP0u3FusuDFeHBr0Wn03rf2j1Zt6I3ODn0mlvHQjvrRXYuyUnXtVIub3dvyUWWpx6abx9E=w495-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Pechuga de pollo, tortilla, patatas y ensalada",
+                    "price": "15,00 €",
+                    "description": "",
+                    "allergens": [
+                        "Huevo",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczM577HR2w6P3t-0wz80dw6EGE__HSzMCekaju5XPpGLppeG52S34LKbj4hMDJhBQb2Zot_I85BwSUcbWIi5oswSkrb0PkUYUOOY4yLwu1G0kOGC7I2bWPR5ybiML0t-4Mvu_CkYXtOM_PHkt2tuMSGr=w568-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Entrecot con huevo frito",
+                    "price": "19,00 €",
+                    "description": "Entrecot, huevo frito, patatas y asadillo casero.",
+                    "allergens": [
+                        "Huevo",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOkkl5lSLlvnJIwSchHsr4CuFkSwe8VURqp-zDJs41NrbwC2e8nzhdrneR0ursqYK6UkjUEqfX0t8WW-pPpmD2Huw6_gInljdDJ_ypg2vA67DNexE3cwDC2Bi0RVm7Z6nNqyYg9i33530ARlbMxUv8E=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Mini cachopo",
+                    "price": "16,00 €",
+                    "description": "",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOsOD5hv-q1OQIbp2zZVndhVv9aQkJwYU6GE8dd_Y6YwlHyNlxHi0Isi9z9nk7mfi_YN6Vao9hDiV-BQ9zm9dSFLA4mMfebz4DJEVs_tab2909Jh_fV5-7ffrfVoMdxqbT8ypTSgYdmOkAisIk0EzoK=w799-h599-s-no-gm?authuser=0"
+                }
+            ]
+        }
+    ],
+    "restaurante": [
+        {
+            "category": "ENTRETENIMIENTOS",
+            "items": [
+                {
+                    "name": "Jamón ibérico con pan y tomate",
+                    "price": "21,00 €",
+                    "description": "Un clásico español en su máxima expresión. Degusta el sabor inigualable del jamón ibérico de bellota, acompañado de pan crujiente untado con tomate fresco y un toque de aceite de oliva virgen extra. ¡Un placer sencillo y exquisito!",
+                    "allergens": [
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczP9jazKNNpKQNikdKAZhAW1BOQsOAyiMa2iJ7qR0CheY4AlcLrDMTky_9wRK1G3WuRSL0RoxUX6Mop07LhPfWj6lyllAy2fgPtndVVW_ueuqca3RvB0nhHIpmRZP06mjXCV3f9RAur1Y_QccQua0OWE=w878-h309-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Jamón ibérico y queso manchego",
+                    "price": "18,00 €",
+                    "description": "Un maridaje de sabores intensos y auténticos. Deléitate con la exquisitez del jamón ibérico de bellota y la personalidad del queso manchego curado. ¡Una tabla para disfrutar de lo mejor de nuestra tierra!",
+                    "allergens": [
+                        "Lácteos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOJ7SoM05AXtC3g6gvdjgY_d9aEMNA8enX_bboCoogMrtUvNwV3C7L6V5Inz034wJ_a1tdW1OLz3W49_I2CmxytxuPGDmhM-3AWZ4W5-4FlGlUKJGxN79A4HCUdzclkXe7t99WmLj0YBvRCz97LNYw0=w599-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Queso Manchego",
+                    "price": "15,00 €",
+                    "description": "Auténtico queso manchego, cuidadosamente curado y cortado en finas lonchas para que disfrutes de su sabor intenso y característico. ¡Un placer para los amantes del buen queso!",
+                    "allergens": [
+                        "Lácteos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMg68zu2uiXt8uBvDBNh1icIdMIHm3Yk3S6Ap6qOdzv9ocipqUkG16v_KrXtEKXc-jqBAdR3ZLrCOSpL8fW1eiZ1RLjA8-iqcUlIq9D3Pt012i6V_BIY5JCpLTpc73dN6xT5F_9XAdk286kJPs8qI4d=w599-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Lomo de anchoa del Cantábrico",
+                    "price": "22,00 €",
+                    "description": "Auténtico sabor del Cantábrico: exquisitos lomos de anchoa, acompañados de tierno pimiento asado y una suave crema de tomate aliñado. ¡Un manjar que evoca la frescura del mar!",
+                    "allergens": [
+                        "Pescado",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMl-dPOfpy_TOizQpJD2sew3T-buV8HMVu0-smnwRoahCSnNF5OGzRwlYq1jCkgUrW2WEkG7BxKv3V7JFkhnsjQumGvFS01G8MEDxSRNvNXPh-Tycj8XwOzxMSOfDDrTdhY8LbZgzAG-I5klOH4JofA=w599-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Gamba blanca gigante (200gr)",
+                    "price": "24,00 €",
+                    "description": "Elige tu experiencia. Saborea la frescura del mar con nuestra deliciosa gamba gigante, preparada a tu gusto: cocida para un sabor puro o a la plancha para un toque ahumado irresistible.",
+                    "allergens": [
+                        "Crustáceos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOXD82dRfuj_Kx80gCMu4e730ORvCCfPool1x6Dqyy3zG8icfww-ZUv31xyEledACV2OmftiXHk4DJkdY6Y2D_ONtlC1Z9LQi-LyHa_SRNkR-95rBQT_dG6hdYW3vMWzu1PErcdrpG5Ixa1nAbtgZrt=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Ensalada de quesos en texturas",
+                    "price": "15,00 €",
+                    "description": "Descubre un mundo de sabores y texturas con nuestra Ensalada de Quesos. Deléitate con la variedad de quesos, la frescura de los pétalos de tomate y el toque dulce de la vinagreta de miel. ¡Una experiencia única para tu paladar!",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOZhEzyVDnoTJCUdNsqV6_lRRNCxY94brwMx7MxLHYbllsDSCZW8tAu1Svwo65HXRohaCN1yHRK1PniUV0h20TaknkaIQeHVoJZnAsTgWgVWTg5HYujrHpxzr5ScYsbBZKuFWygl4CDzi5m0I2oXNpk=w492-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Ensalada de perdiz en escabeche",
+                    "price": "16,00 €",
+                    "description": "Una combinación exquisita de tierna perdiz en escabeche y dulces pimientos asados. ¡Una ensalada llena de sabor y tradición!",
+                    "allergens": [
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMuEtexJ1njQ8Z1fa4TRzEV-eOMxmhaC8p7GDyQuGi1pgRFvypcimMKLJbezwMGR6WsFlkxLp7z9k3c5dbDDTtiO12XEP1lQDJpk3eelNrw-GZkvoMn_9EgsMVLKWP-5tGh67im2QjcdosdgJO0mbIh=w449-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Tomate gourmet con ventresca",
+                    "price": "15,00 €",
+                    "description": "Un placer para los sentidos: tomate gourmet de sabor intenso, combinado con la delicada ventresca y el toque crujiente de la cebolla morada. ¡Una explosión de sabor en cada bocado!",
+                    "allergens": [
+                        "Pescado",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOyQ1BFkeft2w__gSN-yufsj1rBStvHyeCsmPUv_xoVncEI54p8OvugQKlKY8CDgJ2C4JjZbV3MXWJCSWt_AeLCWvolAQ-aKpQC6oN8zXk14JJleBLAuhqk--kHmrVIEI6O6NSqASOnTMElBNKtXlGz=w337-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Taco de foie",
+                    "price": "22,00 €",
+                    "description": "Una explosión de sabores sofisticados. Delicado foie se fusiona con la dulzura de la mermelada de pimientos asados, el toque exótico del chutney de piña y mango, y la frescura de los brotes minicut. ¡Una experiencia gourmet en cada bocado!",
+                    "allergens": [
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNBg2h513z78u5U41z7_10V4N011502O7o2V211W4428C633919v5_i05g7h02G5D87521H45873722971295W754N063h6498877E9=w878-h309-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Tataki de atún rojo",
+                    "price": "23,00 €",
+                    "description": "Exquisito tataki de atún rojo con una crujiente costra de sésamo, bañado en suave salsa teriyaki y un toque de aromático aceite de trufas, coronado con anacardos crujientes. ¡Un viaje de sabores inolvidable!",
+                    "allergens": [
+                        "Pescado",
+                        "Soja",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczONmSFKkBOIfukSXXLxWiPp4YA5e1ZdBJhnm4A8zklu7HrsRT9JkHLdCuDSKWnsFehvGph6KCwXEeC1E62r4B_GJju2IyTzzpSYxYD8he33YJC0_qIFPIJo-szVjscTb3O6b4SIbumzl4ZOAolWLmva=w519-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Surtido de croquetas",
+                    "price": "14,00 €",
+                    "description": "Embárcate en un viaje de sabor con nuestras croquetas artesanales: Jamón Ibérico, Brandada de Bacalao o Carrillada de Ternera.",
+                    "allergens": [
+                        "Pescado",
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo",
+                        "Sulfatos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNoAaWnLOLDzisjn1bzKamoC-MPCuxcfpKufO5i8JC5ub7143qGVD4UZ6ljXvZH8FeRgXtVnctCL08U9o2Hzrx2qQVrImmbY8ri2JqrQEUYJ9uSRYLIYp563Q45klFvV95BC7rfGXh2HPzq2UEThgAZ=w509-h679-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Parrillada de verduras",
+                    "price": "16,00 €",
+                    "description": "Una selección de verduras frescas de temporada, asadas a la parrilla para realzar su sabor natural, rociadas con aromático aceite de albahaca y acompañadas de nuestra deliciosa salsa romesco. ¡Un plato saludable y lleno de sabor mediterráneo!",
+                    "allergens": [
+                        "Gluten",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczN71RqW7ylGt6IPjxNFoZM0po4IMP7QwT8H5kQpxqrE4DS8uIEi45vWE1qXN0qMtYJujSGvxBm84PYvvfRTxqZ43ePXb4gm7PWgeeJWUsX1ftujvALZgbJ1nmPOC3pyG8PqZuMe8MiEQowon1JoQMer=w884-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Boquerones crujientes",
+                    "price": "14,00 €",
+                    "description": "Delicados boquerones frescos, rebozados y fritos hasta obtener una textura crujiente y dorada, acompañados de una refrescante mahonesa con un toque cítrico que realza su sabor. ¡Un bocado ligero y lleno de alegría mediterránea!",
+                    "allergens": [
+                        "Pescado",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNjc7HWW6m1b95PAv-0jFxhR9R1yjpRqwzWWzjCcsYEPIU2ykKv66IiU1dSZy3yA68ppp1yTEvAY7UyrYRRXMe6dm7S6Z6UjfZwpPLJ5yrezXMafOpz0y4zdebwWQEqDz98FCUstAOuQMjIOVNcuDKs=w909-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Pulpo a la brasa",
+                    "price": "24,00 €",
+                    "description": "Tentáculos de pulpo tierno y ligeramente ahumado por la brasa, servidos con suaves patatas asadas y un vibrante mojo rojo canario que aporta un toque delicioso y ligeramente picante. ¡Un festín de sabores del mar!",
+                    "allergens": [
+                        "Pescado"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczO-qKeGRo-Cn9-U8NUi1GlD42fG_3fQd4EISgK9-suHvNJoSNZMt8t8vB09MFn4nnfGPZIxHzuJpJbX0Bnj-IAuToRa-W3pph9qVxLBaE1Sh1KD6Z12Y63BxGqjribbGOfZVYGiBcR0JN2eNmKLs1ov=w610-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Flor de alcachofa y jamón ibérico",
+                    "price": "7,00 €",
+                    "description": "La delicadeza y la textura tierna de la alcachofa confitada se abrazan con el sabor profundo e inconfundible del jamón ibérico. Una combinación que eleva los sentidos a través de su exquisita armonía",
+                    "allergens": [],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczO23RhOn45YGvxKHTuuFKD6GWz0RwHT6ZZFZefvomySHvrcvX2mqqfIDEKEuZBQG1iGZLrCoXW2N75wLmeUfJsN17yTI0R6blmNSWu62LsRwCpl_dNoRkK_5olo1_QPLVl7XkCXm6cWJmh64yNANQXx=w527-h599-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "PESCADOS",
+            "items": [
+                {
+                    "name": "Lomo de lubina y gambón",
+                    "price": "18,00 €",
+                    "description": "Exquisito lomo de lubina a la brasa, delicadamente dispuesto sobre un carpaccio de gambón y bañado en un refrescante gazpacho malagueño elaborado con caldo de pescado y un toque de ali-oli. ¡Una combinación de sabores del mar y la tierra que te sorprenderá!",
+                    "allergens": [
+                        "Pescado",
+                        "Gluten",
+                        "Crustáceos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOzszHXs7-d34RU4xeaFKG2v2yPzFQTFUnuR6cFpBGyBZqxGtzbA2AfXdYO_B8p6a3Ypr8B4qVLgieqIdLbO30tBJUA1hXNpY3kUVPvwTgSCXO2rEXDi037Go5xegddlau2ey6DQ31qX6esNu_ukO3k=w785-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Merluza con mejillón",
+                    "price": "22,00 €",
+                    "description": "Delicada merluza a la plancha, servida sobre un lecho de finos y tiernos noodles de calabacín salteados, bañados en una cremosa salsa de mejillón y nata, y acompañada de mejillones frescos al vapor. ¡Un plato ligero, sabroso y con un toque marino irresistible!.",
+                    "allergens": [
+                        "Pescado",
+                        "Lácteos",
+                        "Gluten",
+                        "Crustáceos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMT5ymLoxxN41f_HEiDvQaxte3-IbXp2ekafDg5KH4gFjVJrsL1_JHZhh5gtCWGoODZp_kJqMZGO3S1Ye4_il6-zKwYmvsTTrWCFrj7hfeQkP0hFYqnf0aqRbMce74Gu7CM-mJAgoL68eF_kY6i42Vo=w615-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Tronco de bacalao",
+                    "price": "21,00 €",
+                    "description": "Un jugoso lomo de bacalao confitado con ajo, envuelto en un delicado velo de panceta curada que aporta un toque sabroso, servido sobre una suave crema de pisto y coronado con crujientes tiras de puerro frito. ¡Una deliciosa fusión de texturas y sabores tradicionales!.",
+                    "allergens": [
+                        "Pescado",
+                        "Gluten",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczPLp8pJxJmdCx_xuWcxbUxTXJTJ96AI3dpksGvhsiBBid_WMiIB0yTiw4K4jI4w6MtIx-uJ7TW0v_kYh4i4a00VG-V9L5XyoJglNvAJfO6OfawK2ueQtGNQbZqDdaGUfEJsgrBu3lgd-LM81Wz5CCan=w623-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Salmón con cítricos",
+                    "price": "17,00 €",
+                    "description": "Delicado lomo de salmón braseado, dispuesto sobre unos ligeros espaguetis de calabacín salteados al wok con un toque de teriyaki, y bañado en una vibrante salsa de naranja y miel. ¡Un plato fresco, lleno de sabor y con un toque oriental!",
+                    "allergens": [
+                        "Pescado",
+                        "Lácteos",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczN4B2zO-zY52lY4h1bvluyQ57gtCazFZO6cltVdAcXlyS6Rm661nEDDmXgap4Cieo4DltX7RRnQNwnQlT2jVtnC7LpbUR2e6SijWQR2S1ZcweNASAhH-CMFEBdQVRGGK1DJ4seyEHFF13oJn8gujyDD=w684-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Arroz con bogavante (p.p)",
+                    "price": "18,00 €",
+                    "description": "Un clásico arroz caldoso, rebosante del sabor del mar gracias al bogavante y una selección de pescados frescos. Preparado con esmero en 40 minutos para que disfrutes de una experiencia marinera auténtica. *Mínimo 2 personas. Tiempo: 40 mins.",
+                    "allergens": [
+                        "Pescado",
+                        "Moluscos",
+                        "Crustáceos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMVvG8yZzFJKETa3fFyx-UoNa0FcngLn8_o5gmNgTQOBy3WrJaQMuc-PsjBqndVB2CYiKuWirIgmQQgC7IkRwsVRYWcnF3Meo9AZs-O-c2nTlRwQTCOYcGSVxAO8vfvx9fw5rwrdhWRr8TprTatNmN_=w681-h599-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "CARNES",
+            "items": [
+                {
+                    "name": "Fricandó de carrillera",
+                    "price": "17,00 €",
+                    "description": "Un tierno taco de carrillera de ternera, lentamente guisada en vino tinto para intensificar su sabor, acompañado de una deliciosa patata asada y gratinada, un crujiente polvo de jamón ibérico horneado y un suave puré especiado. ¡Un plato reconfortante que evoca la tradición con un toque moderno!",
+                    "allergens": [
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNR3bUHYxd3lS96z7V5KB_qtXEaHp-ZUcg5GvWD3MapD4GbRMXZDTRZ-LNtGKKwMytSnqnCcUBqFEJzkdSdsXl9XA4NirIuYqi1Tamud_TZXNL8lFd_Q7zRCVQLnpFlJ9R2uZD-8uhsDjbBWqEmYem2=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Cochinillo asado crujiente",
+                    "price": "24,00 €",
+                    "description": "Nuestro tierno cochinillo, confitado lentamente para lograr una textura jugosa y luego asado hasta obtener una piel deliciosamente crujiente. Servido con su propio jugo, un suave paté y una untuosa manteca asada de garbanzo. ¡Un manjar tradicional con un toque innovador!",
+                    "allergens": [],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMzecfY7Z6EX9o0c7-Jxmb8ECcRqGmeZZzDYxQATUXhhsV8XvU8BO_MsZyZGeGI-rH0BeEQh5KkgkuoSkRDFb9nAWNKi0VkoT9EOoW6jV2oYYHPO9vZpGYlnOOkizIlsX1A2vjuUr_Yobto1YeFvvT_=w879-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Cordero asado a baja temperatura",
+                    "price": "24,00 €",
+                    "description": "Disfruta de la increíble ternura de nuestro cordero, cocinado lentamente para alcanzar una textura melosa y bañado en un aromático jugo de miel y romero. Acompañado de una crujiente y sabrosa patata asada con un toque especial de especias. ¡Un plato lleno de sabor y delicadeza!",
+                    "allergens": [
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczNELNwleKUPoRkB9KlauBb4G67UGpCNlu_NJYkvE7Nf66_4uvGrG82xsk7F6-RyrMpYDQD9BFpX2O1Oz2FX5qqapEwpZxuWkc8dQkG6Xgf0ATYmOBtZgTLq4ST7zKfnbYGTjTN9xBQ4CZpRxFkXZQdA=w999-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Solomillo de añejo",
+                    "price": "22,00 €",
+                    "description": "Un tierno lingote de solomillo de ternera (sin hueso), bañado en una deliciosa salsa de jugo de carne y crujientes avellanas, acompañado de una suave patata asada, delicadamente machacada y aliñada con un toque vibrante de mojo picón. ¡Una experiencia de sabor y texturas que te encantará!",
+                    "allergens": [
+                        "Gluten",
+                        "Cacahuetes"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMohaQZjmP7g3TCkqre2d6ylaPULrVdERU3JOhTqoqyWKz2DvKaMiFLUmC0-23pO37ag4sIH4EO1-rFmfjDU1ksmn3lsnJ6DgWDHhmzE7qBvLJYcIdsKlU-UGQ-A5SxDCKeruS3EjPpexmDO4ehIuYU=w565-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Solomillo ibérico",
+                    "price": "18,00 €",
+                    "description": "Un jugoso medallón de solomillo ibérico a la brasa, dispuesto sobre un suave puré de boniato, acompañado de una ligera y sabrosa espuma de romesco y bañado en una delicada reducción de vino tinto manchego. ¡Un plato que fusiona la tradición con toques creativos y sabores locales!",
+                    "allergens": [
+                        "Gluten",
+                        "Sulfitos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczP9jazKNNpKQNikdKAZhAW1BOQsOAyiMa2iJ7qR0CheY4AlcLrDMTky_9wRK1G3WuRSL0RoxUX6Mop07LhPfWj6lyllAy2fgPtndVVW_ueuqca3RvB0nhHIpmRZP06mjXCV3f9RAur1Y_QccQua0OWE=w878-h309-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "MENÚ INFANTIL",
+            "items": [
+                {
+                    "name": "Hamburguesa infantil",
+                    "price": "8,00 €",
+                    "description": "¡Diversión y sabor en cada bocado! Una deliciosa mini hamburguesa acompañada de crujientes nuggets de pollo y patatas fritas. ¡El plato perfecto para los más pequeños!",
+                    "allergens": [
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMFYQCFt-dTDXCrDJ4Qv9uA2BcqkuaXoBHRWB3xFYEWxAn7OxSPINMfj5qlNp7MyrDiXWoMSYg85uspMxAw3lBVV-s6gt8uhh7F7yQC1XeuHawls27Ja96Aw_Q6OF7PxndOf2k9X61_pxgP1cmU4C4J=w576-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Pasta con tomate",
+                    "price": "8,00 €",
+                    "description": "Sencillez y sabor en cada bocado. Disfruta de nuestra pasta al dente bañada en una deliciosa salsa de tomate natural. ¡Un clásico que nunca falla!",
+                    "allergens": [
+                        "Gluten"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOWPsBmDyh4pUhSQZHx1E9waK5dwAWJeQ2pH4DQOEGhpdYjQVId6yuJkGL-6u9H45LwgVcmwRfNZ4N-BsYEW0kZ9HFtD45wR0vxRt93SveOyhO5LYkcuyZPh-ojnN0HwXD48RC5tr1S4nG0WAWMEW3y=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Mini pizzas, croquetas y patatas",
+                    "price": "8,00 €",
+                    "description": "Para los pequeños gourmets: ¡un festín de mini pizzas divertidas, deliciosas croquetas de jamón cremosas y crujientes patatas fritas para disfrutar!",
+                    "allergens": [
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOYPDnuVxNNZkjfJWpVDelducQzgtTU8N0zo04jab2_AJBF8Pl17o_WM9EedYE9c4cG7dcJSPMjvU-cyJhc6YbNSIaTjcb6Uu2sjmTZ4rh7-oYbs9DaCT-OPfxgwUP3WNOiRc84fHEcla22iYZ5Fq_C=w611-h599-s-no-gm?authuser=0"
+                }
+            ]
+        },
+        {
+            "category": "POSTRES",
+            "items": [
+                {
+                    "name": "Cheescake neoyorkino",
+                    "price": "6,00 €",
+                    "description": "El clásico irresistible con su textura suave and cremosa, asentado sobre una deliciosa base de galletas y coronado con crujientes polvos de cookies. ¡Un final dulce perfecto para cualquier ocasión!.",
+                    "allergens": [
+                        "Frutos secos",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczOdgH11ax4JvtTca2oa6hCKlC2pBsP3IFcbgWsHEEglAaxdJo3LF7shVMU6rvwXIPGo1nIjjIcDqe105p-u8VeXTnuRmW30rngDEyRkS78TzaKOVZ93yd6tNX78NONO6olTDGSNtGSiu5bS4RNNiILT=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Tarta de whisky casera flameada",
+                    "price": "6,00 €",
+                    "description": "Un final espectacular para tu comida. Deléitate con nuestra deliciosa tarta casera de whisky, flameada al momento para un sabor y aroma inolvidables. ¡Un capricho irresistible!\"",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo",
+                        "Sulfatos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMz6RqwKLMD7JAwIamhhVqu_Klgreeiz3PR3SyWsHo2j5uhnNcex4NUfM9zcYJTYQ8WtvWbhmygwDQKmKLkGIly3zfgm-5LZ1lLHqPMfTNqyshKzGR6OeJL6bKdaDzIvM3McnUbGyJBwthWD-faSfKy=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Torrija de Bailey's",
+                    "price": "6,00 €",
+                    "description": "Un postre exquisito que te enamorará. Sumérgete en la suavidad de nuestra torrija, delicadamente bañada en el delicioso licor Bailey's, y acompáñala con la untuosidad de nuestra crema de pistacho. ¡Un final dulce y sofisticado para una comida memorable!",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo",
+                        "Sulfatos"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczMT5C5e3b-ZODPphiSbAgU2sXmYi7FRtTZD59XKyo-djL1AnpbFcm6hxdf9hS6RR0tOcMbrt6p39cCI_j2vCTgjzu2CjQFXaPFmVjkcyzCVUnJnaTKw_wvlY63s_lk1Hl0AQFTSfw-raPNxPid3zziF=w799-h599-s-no-gm?authuser=0"
+                },
+                {
+                    "name": "Brownie de caramelo",
+                    "price": "6,00 €",
+                    "description": "Un capricho irresistible. Deléitate con nuestro delicioso brownie bañado en suave caramelo y dulce de leche, con un toque crujiente de crumble de canela. ¡El postre perfecto para los amantes del dulce!",
+                    "allergens": [
+                        "Lácteos",
+                        "Gluten",
+                        "Huevo"
+                    ],
+                    "image": "https://lh3.googleusercontent.com/pw/AP1GczORmkzJ0m2n37IfEC9I5JyZKgnp8EnfYwDMaL1_K4zLmNhW2OEzd4ER-VqK2ZlyynKo-JXVp28rwwkWrVVCmOZ9VSvPZ8D221I--r6olOkRUPP6VLaYV49wALfQId4MvH1I-wbuhMVlOyhuXdHpm9lW=w799-h599-s-no-gm?authuser=0"
+                }
+            ]
+        }
+    ]
+}

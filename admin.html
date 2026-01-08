@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración - Menú Digital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0F1C18;
+            --text-color: #EAEAEA;
+            --gold-color: #D4AF37;
+            --font-main: 'Lato', sans-serif;
+            --font-title: 'Cinzel', serif;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--font-title);
+            color: var(--gold-color);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--gold-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .admin-controls {
+            background: rgba(15, 28, 24, 0.9);
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 90;
+            border-bottom: 1px solid var(--gold-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-tab {
+            background: transparent;
+            border: 1px solid var(--gold-color);
+            color: var(--gold-color);
+            padding: 10px 20px;
+            cursor: pointer;
+            font-family: var(--font-title);
+        }
+
+        .btn-tab.active {
+            background: var(--gold-color);
+            color: var(--bg-color);
+        }
+
+        .btn-action {
+            background: var(--gold-color);
+            color: var(--bg-color);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn-delete {
+            background: #f44336;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .menu-section {
+            background: rgba(255, 255, 255, 0.05);
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #333;
+        }
+
+        .menu-section summary {
+            font-family: var(--font-title);
+            font-size: 1.2rem;
+            color: var(--gold-color);
+            cursor: pointer;
+            outline: none;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .menu-item {
+            background: #1a2622;
+            padding: 15px;
+            border: 1px solid #333;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .dish-main {
+            display: flex;
+            gap: 10px;
+        }
+
+        .menu-img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border: 1px solid var(--gold-color);
+        }
+
+        .dish-content {
+            flex: 1;
+        }
+
+        .dish-header {
+            display: flex;
+            justify-content: space-between;
+            font-family: var(--font-title);
+            margin-bottom: 5px;
+        }
+
+        .price {
+            color: var(--gold-color);
+            font-weight: bold;
+        }
+
+        .admin-item-controls {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+            border-top: 1px solid #333;
+            padding-top: 10px;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-content {
+            background: var(--bg-color);
+            border: 2px solid var(--gold-color);
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            color: var(--gold-color);
+            margin-bottom: 5px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            background: #333;
+            border: 1px solid #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>ADMIN PANEL</h1>
+        <a href="index.html" class="btn-tab" style="text-decoration:none;">VOLVER A LA WEB</a>
+    </div>
+
+    <div class="admin-controls">
+        <div class="tab-buttons">
+            <button class="btn-tab active" onclick="switchTab('cafeteria')">Cafetería</button>
+            <button class="btn-tab" onclick="switchTab('restaurante')">Restaurante</button>
+        </div>
+        <div style="display:flex; gap:10px;">
+            <button class="btn-action" style="background:#f44336;" onclick="hardReset()">Restaurar de Fábrica</button>
+            <button class="btn-action" style="background:#4caf50;" onclick="saveToLocal()">Guardar Cambios
+                (Local)</button>
+        </div>
+    </div>
+
+    <main class="container menu-container" id="adminContainer">
+        <!-- Content injected by JS -->
+    </main>
+
+    <!-- Generic Edit Modal -->
+    <div id="editModal" class="modal-overlay">
+        <div class="modal-content">
+            <h3>Editar Plato</h3>
+            <input type="hidden" id="editIndex">
+            <input type="hidden" id="editSectionIndex">
+
+            <div class="form-group">
+                <label>Nombre</label>
+                <input type="text" id="editName">
+            </div>
+            <div class="form-group">
+                <label>Precio</label>
+                <input type="text" id="editPrice">
+            </div>
+            <div class="form-group">
+                <label>Descripción</label>
+                <textarea id="editDesc" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label>URL Imagen</label>
+                <input type="text" id="editImage">
+            </div>
+            <div class="form-group">
+                <label>Alérgenos (separados por coma)</label>
+                <input type="text" id="editAllergens" placeholder="Gluten, Lácteos...">
+            </div>
+
+            <div style="display:flex; gap:1rem; justify-content:flex-end; margin-top:1rem;">
+                <button class="btn-tab" onclick="closeModal()">Cancelar</button>
+                <button class="btn-action" onclick="saveItem()">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="menu-data.js"></script>
+    <script>
+        let fullMenuData = null;
+        let currentTab = 'cafeteria';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("DOM Loaded.");
+            loadData();
+        });
+
+        // Safe Storage Wrappers
+        const storage = {
+            getItem: (key) => {
+                try {
+                    return localStorage.getItem(key);
+                } catch (e) {
+                    console.warn('Storage access blocked:', e);
+                    return null;
+                }
+            },
+            setItem: (key, value) => {
+                try {
+                    localStorage.setItem(key, value);
+                    return true;
+                } catch (e) {
+                    console.warn('Storage save blocked:', e);
+                    return false;
+                }
+            },
+            removeItem: (key) => {
+                try {
+                    localStorage.removeItem(key);
+                } catch (e) {
+                    console.warn('Storage remove blocked:', e);
+                }
+            }
+        };
+
+        function loadData() {
+            try {
+                // Initialize from file data guaranteed
+                let fileData = { cafeteria: [], restaurante: [] };
+
+                // Sanity check
+                if (typeof initialMenuData === 'undefined') {
+                    console.error("Critical: initialMenuData is undefined. Script load failed.");
+                    alert("Error crítico: No se ha podido cargar el archivo de datos (menu-data.js).");
+                    return;
+                } else {
+                    fileData = JSON.parse(JSON.stringify(initialMenuData));
+                }
+
+                // 1. Start with file data default
+                fullMenuData = fileData;
+
+                // 2. Check Local Storage (Safely)
+                const localData = storage.getItem('menuData');
+                if (localData) {
+                    try {
+                        const parsed = JSON.parse(localData);
+                        if (parsed && Array.isArray(parsed.cafeteria) && Array.isArray(parsed.restaurante)) {
+                            // Valid local data found, use it
+                            fullMenuData = parsed;
+
+                            // 3. REPAIR LOGIC:
+                            // Check if Restaurant data is missing locally but present in file
+                            if ((!fullMenuData.restaurante || fullMenuData.restaurante.length === 0) && fileData.restaurante.length > 0) {
+                                alert("Aviso: Se han detectado datos incompletos en el Restaurante. Se han restaurado automáticamente desde el archivo original.");
+                                fullMenuData.restaurante = fileData.restaurante;
+                                storage.setItem('menuData', JSON.stringify(fullMenuData)); // Persist fix
+                            }
+                        }
+                    } catch (e) {
+                        console.warn('Corrupted local data, resetting to file default.');
+                        fullMenuData = fileData;
+                    }
+                }
+
+                // 4. Render Admin Panel
+                renderAdmin();
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                alert("Error crítico cargando la aplicación: " + error.message);
+            }
+        }
+
+        function hardReset() {
+            if (confirm('¡ATENCIÓN! Esto borrará TODOS los cambios que hayas hecho y restaurará el menú original del archivo. ¿Estás seguro?')) {
+                storage.removeItem('menuData');
+                alert('Datos restaurados. La página se recargará.');
+                location.reload();
+            }
+        }
+
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.btn-tab').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            renderAdmin();
+        }
+
+        function renderAdmin() {
+            const container = document.getElementById('adminContainer');
+            container.innerHTML = '';
+
+            const data = fullMenuData[currentTab];
+            if (!data) return;
+
+            data.forEach((section, sIndex) => {
+                const details = document.createElement('details');
+                details.className = 'menu-section';
+                details.open = true;
+
+                const summary = document.createElement('summary');
+                summary.innerHTML = `${section.category} <button class="btn-action" style="font-size:0.8rem; margin-left:auto;" onclick="addItem(${sIndex}); event.preventDefault();">+ Añadir Plato</button>`;
+                details.appendChild(summary);
+
+                const grid = document.createElement('div');
+                grid.className = 'menu-grid';
+
+                section.items.forEach((item, iIndex) => {
+                    const card = document.createElement('div');
+                    card.className = 'menu-item';
+
+                    const allergensText = item.allergens ? item.allergens.join(', ') : '';
+
+                    card.innerHTML = `
+                        <div class="dish-main">
+                            <img src="${item.image}" class="menu-img">
+                            <div class="dish-content">
+                                <div class="dish-header">
+                                    <h4 class="dish-name">${item.name}</h4>
+                                    <div class="price">${item.price}</div>
+                                </div>
+                                <p class="dish-description">${item.description || ''}</p>
+                                <div class="allergens">${allergensText}</div>
+                            </div>
+                        </div>
+                        <div class="admin-item-controls">
+                            <button class="btn-tab" onclick="editItem(${sIndex}, ${iIndex})">Editar</button>
+                            <button class="btn-delete" onclick="deleteItem(${sIndex}, ${iIndex})">Eliminar</button>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+
+                details.appendChild(grid);
+                container.appendChild(details);
+            });
+        }
+
+        function editItem(sIndex, iIndex) {
+            // Get current item data
+            const item = fullMenuData[currentTab][sIndex].items[iIndex];
+
+            // Populate modal
+            document.getElementById('editIndex').value = iIndex;
+            document.getElementById('editSectionIndex').value = sIndex;
+            document.getElementById('editName').value = item.name;
+            document.getElementById('editPrice').value = item.price;
+            document.getElementById('editDesc').value = item.description || '';
+            document.getElementById('editImage').value = item.image;
+            document.getElementById('editAllergens').value = item.allergens ? item.allergens.join(', ') : '';
+
+            // Show modal
+            document.getElementById('editModal').style.display = 'flex';
+        }
+
+        function addItem(sIndex) {
+            document.getElementById('editIndex').value = -1; // New item
+            document.getElementById('editSectionIndex').value = sIndex;
+            document.getElementById('editName').value = '';
+            document.getElementById('editPrice').value = '';
+            document.getElementById('editDesc').value = '';
+            document.getElementById('editImage').value = '';
+            document.getElementById('editAllergens').value = '';
+
+            document.getElementById('editModal').style.display = 'flex';
+        }
+
+        function saveItem() {
+            try {
+                const sIndex = parseInt(document.getElementById('editSectionIndex').value);
+                const iIndex = parseInt(document.getElementById('editIndex').value);
+
+                const newItem = {
+                    name: document.getElementById('editName').value,
+                    price: document.getElementById('editPrice').value,
+                    description: document.getElementById('editDesc').value,
+                    image: document.getElementById('editImage').value,
+                    allergens: document.getElementById('editAllergens').value.split(',').map(s => s.trim()).filter(s => s)
+                };
+
+                if (iIndex === -1) {
+                    // Add new item
+                    fullMenuData[currentTab][sIndex].items.push(newItem);
+                } else {
+                    // Update existing item
+                    if (fullMenuData[currentTab] && fullMenuData[currentTab][sIndex] && fullMenuData[currentTab][sIndex].items) {
+                        fullMenuData[currentTab][sIndex].items[iIndex] = newItem;
+                    }
+                }
+
+                closeModal();
+                renderAdmin();
+                saveToLocal();
+            } catch (err) {
+                console.error("Error saving item:", err);
+                alert("Hubo un error al guardar: " + err.message);
+            }
+        }
+
+        function deleteItem(sIndex, iIndex) {
+            if (confirm('¿Seguro que quieres eliminar este plato?')) {
+                fullMenuData[currentTab][sIndex].items.splice(iIndex, 1);
+                renderAdmin();
+                saveToLocal();
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('editModal').style.display = 'none';
+        }
+
+        function saveToLocal() {
+            const success = storage.setItem('menuData', JSON.stringify(fullMenuData));
+
+            // Show feedback
+            const btn = document.querySelector('.btn-action[onclick="saveToLocal()"]');
+            if (btn) {
+                const originalText = btn.innerText;
+                if (success) {
+                    btn.innerText = '¡Guardado!';
+                    btn.style.background = '#4caf50';
+                } else {
+                    btn.innerText = '¡Error al guardar!';
+                    btn.style.background = '#f44336';
+                }
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.style.background = '#4caf50'; // Restore original green
+                }, 2000);
+            }
+        }
+    </script>
+</body>
+
+</html>
