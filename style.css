@@ -120,7 +120,7 @@ header {
 
 /* Hero Section (Index) */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -467,6 +467,19 @@ footer {
 
 /* Mobile Adjustments */
 @media (max-width: 600px) {
+    .hero {
+        padding: 4rem 1rem;
+    }
+
+    .nav-card {
+        height: 320px;
+    }
+
+    .nav-card p {
+        opacity: 1;
+        transform: none;
+    }
+
     .menu-grid {
         grid-template-columns: 1fr;
     }
